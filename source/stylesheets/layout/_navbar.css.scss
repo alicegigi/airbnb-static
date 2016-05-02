@@ -75,7 +75,7 @@
 }
 .navbar-wagon-search-btn {
   line-height: 40px;
-  color: $brand-color;
+  color: $gray-lighter;
   border: none;
   background: transparent;
   position: absolute;
@@ -115,7 +115,7 @@
 }
 .navbar-wagon-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: black !important;
+  color: white !important;
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
