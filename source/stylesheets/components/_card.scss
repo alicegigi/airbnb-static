@@ -1,11 +1,11 @@
 .card {
-  height: 250px;
+  height: 200px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   color: white;
   position: relative;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 .card-user {
   position: absolute;
@@ -16,7 +16,8 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .card-description {
   position: absolute;
@@ -24,11 +25,11 @@
   left: 10px;
 }
 .card-description h2 {
-  font-size: 22px;
+  font-size: 24px;
 }
 .card-description p {
-  font-size: 15px;
-}
+  font-size: 13px;
+  }
 .card-link {
   position: absolute;
   top: 0;
