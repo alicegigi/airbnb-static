@@ -1,0 +1,18 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner_name] %>
+
+<!-- Inject flat data in template -->
+
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path(flat.picture)%>);">
+</div>
+
+<div id="flat-wrapper">
+
+<%= image_tag flat.owner_picture, class: "img-circle" %>
+<p><%= flat.owner_name %></p>
+<h1><%= flat.description %></h1>
+<p><%= flat.city %></p>
+
+</div>
